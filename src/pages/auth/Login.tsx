@@ -49,18 +49,18 @@ export interface Feature {
 const detectionFeatures: Feature[] = [
   {
     icon: ({ size, color }) => <Users size={size} color={color} />,
-    title: "Person Detection",
-    description: "High-precision human detection and tracking with support for crowd analysis and monitoring.",
+    title: "foodde livery",
+    description: "lorem15.",
   },
   {
     icon: ({ size, color }) => <Car size={size} color={color} />,
-    title: "Vehicle Recognition",
-    description: "Identify and classify vehicles across multiple categories with advanced pattern recognition.",
+    title: "person delivery",
+    description: "lorem20",
   },
   {
     icon: ({ size, color }) => <Scan size={size} color={color} />,
-    title: "Face Detection",
-    description: "Privacy-focused facial detection with customizable confidence thresholds and attribute analysis.",
+    title: "medicine delivery",
+    description: "lorem25",
   },
 ];
 

@@ -80,7 +80,7 @@ const FeatureShowcase: React.FC<FeatureShowcaseProps> = ({ features }) => {
             color="text.primary"
             sx={{ fontSize: 18, fontWeight: "bold" }}
           >
-            Powerful, secure, and accurate detection tools for person, vehicle, and face analysis
+            lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </Typography>
         </Box>
         <Stack spacing={{ xs: 2, md: 3 }}>
