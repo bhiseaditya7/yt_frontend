@@ -1,0 +1,139 @@
+/* GPU Accelerated Animations */
+.gpu-accelerated {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Base Layout Background */
+.base-layout-background {
+  transition: background-color 0.3s ease;
+}
+
+.base-layout-background.dark {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.base-layout-background.light {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+/* Theme Toggle Panel */
+.theme-toggle-panel {
+  transition: all 0.3s ease;
+}
+
+/* Header Animations */
+.header-appbar {
+  transition: all 0.3s ease;
+}
+
+.header-mobile-toggle {
+  transition: transform 0.2s ease;
+}
+
+.header-mobile-toggle:hover {
+  transform: scale(1.1);
+}
+
+.header-logo-paper {
+  transition: all 0.3s ease;
+}
+
+.header-logo-paper:hover {
+  transform: scale(1.05);
+}
+
+.header-theme-toggle {
+  transition: all 0.2s ease;
+}
+
+.header-theme-toggle:hover {
+  transform: rotate(180deg);
+}
+
+.header-notification-btn {
+  transition: all 0.2s ease;
+}
+
+.header-notification-btn:hover {
+  transform: scale(1.1);
+}
+
+.header-user-avatar-btn {
+  transition: all 0.2s ease;
+}
+
+.header-user-avatar-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Sidebar Animations */
+.sidebar-drawer {
+  transition: width 0.3s ease;
+}
+
+/* Main Content Animations */
+.main-content-animation {
+  transition: margin 0.3s ease;
+}
+
+/* Alerts Panel Animations */
+.alerts-panel {
+  transition: width 0.3s ease;
+}
+
+.alerts-toggle-button {
+  transition: all 0.3s ease;
+}
+
+.alerts-toggle-button:hover {
+  transform: scale(1.1);
+}
+
+/* Smooth Transitions */
+.smooth-transition {
+  transition: all 0.3s ease;
+}
+
+/* Animated Border */
+.animated-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #7e3af2, #a78bfa, #7e3af2);
+  background-size: 200% 100%;
+  animation: borderFlow 3s ease-in-out infinite;
+}
+
+@keyframes borderFlow {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Dashboard Background */
+.dashboard-background {
+  transition: background-color 0.3s ease;
+}
+
+/* Menu Paper */
+.header-menu-paper {
+  animation: slideIn 0.2s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 
