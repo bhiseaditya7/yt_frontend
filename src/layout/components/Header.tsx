@@ -192,11 +192,11 @@ const Header: React.FC<HeaderProps> = ({
               WebkitTextFillColor: 'transparent',
             }}
           >
-           Kepler Platform
+     
           </Typography> */}
         </Box>
 
-        {/* Center Kepler Platform Title */}
+
         <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <Typography
             variant="h5"
@@ -212,7 +212,7 @@ const Header: React.FC<HeaderProps> = ({
               display: { xs: 'none', md: 'flex' },
             }}
           >
-            Kepler Platform
+            new Platform
           </Typography>
         </Box>
 

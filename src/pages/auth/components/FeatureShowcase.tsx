@@ -73,7 +73,7 @@ const FeatureShowcase: React.FC<FeatureShowcaseProps> = ({ features }) => {
             gutterBottom
             color="text.primary"
           >
-            Kepler Platform
+            new Platform
           </Typography>
           <Typography
             variant={isMobile ? "body2" : "body1"}
