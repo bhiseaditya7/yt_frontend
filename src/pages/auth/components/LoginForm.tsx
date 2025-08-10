@@ -157,10 +157,10 @@ const handleForgotEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
                 variant={isMobile ? "h5" : "h4"}
                 sx={{ color: theme.palette.text.primary, fontWeight: "bold" }}
               >
-                Skylark Labs
+                new
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Kepler Platform
+                new
               </Typography>
             </Box>
           </Box>

@@ -96,7 +96,7 @@ const Footer: React.FC = () => {
                     gap: 0.5,
                   }}
                 >
-                  Skylark Labs Kepler Platform
+                  new Platform
                   <Zap size={14} color="#22c55e" />
                 </Typography>
                 <Typography variant="body2" color="text.secondary" sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>

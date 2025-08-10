@@ -170,7 +170,7 @@ export const sendDetectionNotification = async (data: {
     user_ids: [1],
     org_id: 123,
     user_emails: {
-      "1": "ayush.tinkhede@skylarklabs.ai"
+      "1": "bhiseaditya7@gmail.com"
     },
     subject: "Security Alert: Person Detected",
     template_name: "email_template/detection_notification.html",

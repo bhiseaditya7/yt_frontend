@@ -62,8 +62,8 @@ const Footer: React.FC = () => {
                 }}
               >
                 <img
-                  src="/skylark-logo-purple.png"
-                  alt="Skylark Logo"
+                  src="/.png"
+                  alt=" Logo"
                   style={{ height: 20, width: 20 }}
                 />
               </Box>
@@ -77,11 +77,11 @@ const Footer: React.FC = () => {
                   WebkitTextFillColor: 'transparent',
                 }}
               >
-                Skylark Labs Kepler Platform
+                new Labs NEw Platform
               </Typography>
             </Box>
             <Typography variant="body2" color="text.secondary">
-              © {currentYear} Skylark Labs Kepler Platform
+              © {currentYear} new Labs NEw Platform
             </Typography>
           </Box>
           <Box

@@ -400,7 +400,7 @@ const toggleSidebar = () => setIsCollapsed(!isCollapsed);
                 fontSize: '0.9rem',
               }}
             >
-              SKYLARK LABS
+              new
             </Typography>
           )}
         </Box>

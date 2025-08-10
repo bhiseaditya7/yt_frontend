@@ -93,7 +93,7 @@ const Login: React.FC = () => {
   const [formError, setFormError] = useState<string>('');
 
   useEffect(() => {
-    document.title = showRegisterForm ? 'Register | Skylark Labs' : 'Login | Skylark Labs '
+    document.title = showRegisterForm ? 'Register | SNEW LABS' : 'Login | NEW Labs '
     if (isAuthenticated) {
       navigate(routes.home.path);
     }

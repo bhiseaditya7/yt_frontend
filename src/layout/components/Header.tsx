@@ -172,8 +172,8 @@ const Header: React.FC<HeaderProps> = ({
               onClick={() => navigate(routes.home.path)}
             >
               <img
-                src="/skylark-logo-purple.png"
-                alt="Skylark Logo"
+                src="/.png"
+                alt=" Logo"
                 style={{ height: 36, width: 36 }}
               />
             </IconButton>
